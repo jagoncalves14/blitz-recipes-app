@@ -22,7 +22,7 @@ export const RecipesList = () => {
           <li key={recipe.id}>
             <Link href={`/recipes/${recipe.id}`}>
               <a>
-                <img src={recipe.imageUrl} />
+                <img alt={recipe.name} src={recipe.imageUrl} />
                 <p>{recipe.name}</p>
               </a>
             </Link>

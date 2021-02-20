@@ -19,13 +19,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Ensure the `.env.local` file has required environment variables:
 
 ```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/blitz-recipes-app
+DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/fake
 ```
 
 Ensure the `.env.test.local` file has required environment variables:
 
 ```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/blitz-recipes-app_test
+DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/fake_test
 ```
 
 ## Tests
@@ -64,7 +64,7 @@ You can read more about it on the [CLI Overview](https://blitzjs.com/docs/cli-ov
 Here is the starting structure of your app.
 
 ```
-blitz-recipes-app
+fake
 ├── app/
 │   ├── api/
 │   ├── auth/
